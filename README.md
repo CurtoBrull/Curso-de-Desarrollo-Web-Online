@@ -8,8 +8,8 @@ Curso Básico de 6 horas de contenido.
 
 * [Curso de Desarrollo Web Online]( https://platzi.com/clases/html5-css3/ "Curso de Desarrollo Web Online")
 
-## Atributos HTML
 
+## Atributos HTML
 Los atributos son valores agregados a las etiquetas (tags) html que extienden su habilidad o funcionalidad con información específica.
 
 A continuación, un ejemplo de los atributos más comunes y usados en algunas etiquetas:
