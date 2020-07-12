@@ -37,5 +37,4 @@ Para **meta**, también en la cabecera head del documento:
 **charset:** indica la tabla de caracteres (utf-8 para caracteres latinos) usada en el documento.
 
 Para **a:**
-
 **href:** la ubicación o ruta a la que enlaza esta etiqueta de ancla. En el caso de querer enlazar a elementos que se encuentran dentro del mismo documento, este atributo debe indicar el valor del atributo ““id”” de ese elemento destino del enlace.
