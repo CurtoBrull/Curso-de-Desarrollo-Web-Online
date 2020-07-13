@@ -60,3 +60,20 @@ Estilos con el **tag Style**: regularmente este tag se incluye dentro de la etiq
 Estilos enlazados desde un archivo **css externo**: utilizando la etiqueta **link** que nos permite enlazar recursos externos.
 
 A CSS, se le llama hojas de estilos en cascada porque los estilos que se definen para una página, se van aplicando de arriba hacia abajo, y de lo más general a lo más particular, teniendo prioridad lo más particular. Esto es, los estilos que prevalecen son los que han sido definidos en línea, luego los que fueron definidos mediante la etiqueta style en la cabeza o cuerpo del html, y por último los estilos definidos en archivos externos enlazados con la etiqueta link. Esta prioridad se puede alterar al usar el modificador **!important** en la definición de algún estilo en particular, aunque esto no es recomendado.
+
+## Bordes
+
+Todos los elementos html admiten la propiedad de css border, que define la apariencia que tendrá el contorno del componente.
+El borde puede ser de muchos estilos, y al igual que las propiedades margin y padding que aprenderás más adelante, a los bordes se les puede colocar estilos tanto de forma general con la propiedad border, como de acuerdo al lado del elemento que se indique: **border-top, border-right, border-bottom y border-left**.
+
+Con la propiedad **boder-radius** se define el redondeado de las esquinas de los bordes.
+
+## Márgenes
+
+Los márgenes en CSS son el espacio que separa a los elementos html entre sí. Hay elementos de html que traen márgenes predefinidos (por defecto) en los estilos propios del navegador como el caso de: body, h1, h2, h3, h4, h5, h6, ol, ul, li, p, y muchos otros.
+
+Cuando hay dos márgenes de elementos diferentes que colindan entre sí, se presenta una situación llamada **“margin collapsing”** en la que el mayor margen de los dos se superpone al otro.
+
+Se puede asignar una medida de margin para los cuatro lados del elemento, o márgenes individuales para cada uno de los lados con: **margin-top, margin-right, margin-bottom y margin-left.**
+
+Se puede centrar un elemento html colocándole el valor de **margin: 0 auto**, cuando dicho elemento tiene **display block**.
