@@ -7,6 +7,7 @@
     --celeste: #026fff;
     --celeste-suave: #f4fbff;
     --gris-blanco: #fafafa;
+    --dorado: #fce69a;
 }
 
 body {
@@ -43,7 +44,7 @@ h1 {
 }
 
 h1 strong {
-    color: var(--celeste);
+    color: var(--dorado);
 }
 
 h2 {
@@ -87,7 +88,7 @@ h2 {
 }
 
 .header-imgLogo {
-    height: 50px;
+    height: 65px;
 }
 
 .hero {
@@ -132,6 +133,13 @@ h2 {
     margin-bottom: 10px;
 }
 
+.project-url a {
+    text-decoration: none;
+    font-family: var(--font-fjalla);
+    color: coral;
+    padding-left: 5px;
+}
+
 .project-course,
 .project-date,
 .project-url {
@@ -148,6 +156,10 @@ h2 {
 
 .project-imageContainer {
     width: 500px;
+}
+
+article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
+    object-fit: scale-down;
 }
 
 .event-list {
@@ -214,8 +226,8 @@ h2 {
 }
 
 .contact {
-    background-color: var(--celeste);
-    color: white;
+    background-color: var(--dorado);
+    color: var(--celeste);
     height: 150px;
     display: flex;
     align-items: center;
@@ -251,7 +263,7 @@ h2 {
 }
 
 .form-email input{
-    border-color: gray;
+    border-color: var(--gris-oscuro);
     border-style: solid;
     border-radius: 5px;
     padding: 10px 20px 12px 25px;
@@ -259,22 +271,28 @@ h2 {
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-x: 5px;    
+    background-position-x: 5px;    */
 }
 
 .form-email button {
     display: block;
     background: transparent;
-    color: white;
+    color: var(--celeste);
     padding: 10px 0;
     border-radius: 5px;
     margin-top: 5px;
     width: 100px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px; 
+    font-weight: bold;   
+    letter-spacing: .7px;
+    border: 1px solid rgba(0, 0, 0, 0.685);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .form-email h3 {
-    font-family: var(--font-sansPro);
+    font-family: var(--font-fjalla);
+    text-shadow: 1px 3px 4px #867947;
+    letter-spacing: .5px;
 }
 
 .container {
