@@ -197,7 +197,7 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
 }
 
 .event-description {
-    text-align: left;
+    text-align: center;
 }
 
 .event-url {
@@ -303,4 +303,29 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+/* Página certificados HTML */
+
+.cert-header {
+    background-color: var(--bcg-gris);
+    height: 250px;
+}
+
+.cert-header-imgLogo {
+    height: 125px;
+    padding-top: 50px;
+}
+
+.cert-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--bcg-gris);
+    display: flex;
+    justify-content: space-around;
+}
+
+.cert-image {
+    margin: 10px 0;
+    width: 40%;
+    height: 400px;
 }
