@@ -8,11 +8,13 @@
     --celeste-suave: #f4fbff;
     --gris-blanco: #fafafa;
     --dorado: #fce69a;
+    --dorado-suave: #f8eab8;
 }
 
 body {
     font-family: var(--font-sansPro), sans-serif;
     margin: 0;
+    background-color: var(--dorado-suave);
 }
 
 ol,
@@ -52,7 +54,7 @@ h2 {
     text-transform: uppercase;
     font-family: var(--font-sansPro);
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
@@ -108,7 +110,7 @@ h2 {
 }
 
 .portfolio {
-    background-color: var(--gris-blanco);
+    background-color: var(--dorado-suave);
     padding: 20px;
 }
 
@@ -131,6 +133,7 @@ h2 {
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
+    text-align: center;  
 }
 
 .project-url a {
@@ -144,10 +147,16 @@ h2 {
 .project-date,
 .project-url {
     margin: 10px 0;
+    
+}
+
+.project-course {
+    font-size: 30px;
+    text-align: center;
 }
 
 .project-description {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .project-details {
@@ -187,6 +196,10 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     object-fit: cover;
 }
 
+.event-image.css {
+    object-fit: contain;
+}
+
 .event-detail {
     margin: 20px 40px;
     margin-top: -40px;
@@ -194,10 +207,11 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     background-color: white;
     position: relative;
     text-align: center;
+    border-radius: 5px;
 }
 
 .event-description {
-    text-align: left;
+    text-align: center;
 }
 
 .event-url {
@@ -262,6 +276,10 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     background-image: url('../images/instagram.svg');
 }
 
+.social-link.linkedin {
+    background-image: url('../images/linkedin.svg');
+}
+
 .form-email input{
     border-color: var(--gris-oscuro);
     border-style: solid;
@@ -303,4 +321,38 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+
+/* Páginas de certificados */
+
+.cert-header {
+    background-color: var(--bcg-gris);
+    height: 250px;
+}
+
+.cert-header-imgLogo {
+    height: 125px;
+    padding-top: 50px;
+}
+
+.cert-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--bcg-gris);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cert-image {
+    margin: 10px 0;
+    height: 400px;
+}
+
+.cert-contact {
+    background-color: var(--dorado);
+    color: var(--celeste);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
