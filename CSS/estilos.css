@@ -356,3 +356,8 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     align-items: center;
     justify-content: space-between;
 }
+article.project:nth-child(3) > figure:nth-child(2) > img:nth-child(1) {
+    border: 1px solid rgb(204, 200, 200);
+    box-shadow: 0 1px 1px 1px rgb(167, 164, 164);
+    border-radius: 5px;
+}
