@@ -248,10 +248,6 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     justify-content: space-between;
 }
 
-.social {
-    
-}
-
 .social-link {
     display: inline-block;
     width: 50px;
@@ -289,7 +285,7 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-x: 5px;    */
+    background-position-x: 5px;
 }
 
 .form-email button {
