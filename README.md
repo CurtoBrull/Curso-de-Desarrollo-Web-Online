@@ -119,3 +119,35 @@ Algo que es muy importante y se debe tener en cuenta a la hora de usar align-ite
 **IMPORTANTE**: Cuando la propiedad flex-direction se ha definido como column, la propiedad justify-content ya no va a aplicar sobre la alineación horizontal, sino sobre la vertical. Y align-items ya no aplicaría sobre la alineación vertical sino la horizontal. Se intercambian sus efectos.
 
 Para centrar completamente los elementos internos de manera vertical y horizontal en su elemento padre, debemos usar el valor center en ambas propiedades.
+
+# Conceptos elementales de Responsive Design
+
+Para abordar el campo del Responsive Design es necesario que tengas claridad sobre algunos conceptos básicos.
+
+Por este motivo, durante esta clase aprenderás qué es el Responsive Design, cuáles son los lenguajes de programación que lo hacen posible, qué medidas son necesarias aplicar para lograr que tus proyectos se adapten a pantallas de diversas medidas y condiciones, cuáles son los principios del Responsive Design (mostly fluid, colocación de columnas, layout shifter, tiny tweaks, off canvas).
+
+Finalmente, aprenderás el objetivo principal del Responsive Design: la óptima visualización de las web sites en cualquier dispositivo y podrás tener referentes en www.mediaqueri.es .
+
+# Patrones en Responsive Desing:
+
+## Mostly Fluid:
+
+El patrón Mostly fluid consiste, principalmente, en una cuadrícula fluida. Por lo general, en las pantallas grandes o medianas se mantiene el mismo tamaño y simplemente se ajustan los márgenes en las más anchas.
+En las pantallas más pequeñas, la cuadrícula fluida genera el reprocesamiento del contenido principal, mientras que las columnas se apilan verticalmente. Una de las mayores ventajas de este patrón es que, en general, solo se necesita un punto de interrupción entre las pantallas grandes y las pequeñas.
+
+## Colocación de columnas:
+
+En el caso de los diseños con varias columnas de ancho completo, durante el proceso de colocación de columnas éstas únicamente se colocan de forma vertical debido a que el ancho de la ventana es demasiado reducido para el contenido.
+En un momento dado, todas las columnas se apilan verticalmente. La selección de puntos de interrupción para este patrón de diseño depende del contenido y cambia para cada diseño.
+
+## Layout shifter:
+
+El patrón Layout shifter es el más adaptable, ya que posee varios puntos de interrupción en diferentes anchos de pantalla.
+La clave para este diseño es el desplazamiento del contenido, en lugar de su reprocesamiento y colocación debajo de otras columnas. Debido a las diferencias significativas entre cada punto de interrupción principal, es más complejo de mantener, y es posible que se deban realizar cambios dentro de los elementos, no solo en el diseño de contenido general.
+
+## Tiny tweaks:
+El patrón Tiny tweaks permite realizar pequeños cambios en el diseño, como ajustar el tamaño de la fuente, cambiar el tamaño de las imágenes o desplazar el contenido de maneras muy poco significativas.
+Funciona correctamente en diseños con una sola columna, como los sitios web lineales de una sola página y los artículos con mucho texto.
+
+## Off canvas:
+En lugar de apilar contenido verticalmente, el patrón Off canvas coloca contenido menos usado (tal vez menús de navegación o de apps) fuera de la pantalla y solo lo muestra cuando el tamaño de la pantalla es suficientemente grande. En las pantallas más pequeñas, el acceso al contenido es posible con solo a un clic.

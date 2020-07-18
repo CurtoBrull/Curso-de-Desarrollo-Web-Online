@@ -333,15 +333,15 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
 
 .cert-container {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     background-color: var(--bcg-gris);
     display: flex;
     justify-content: space-evenly;
 }
 
 .cert-image {
-    margin: 10px 0;
-    height: 400px;
+    margin: 1vh;
+    width: 90vh;
 }
 
 .cert-contact {
