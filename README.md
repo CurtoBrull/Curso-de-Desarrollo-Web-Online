@@ -146,8 +146,38 @@ El patrón Layout shifter es el más adaptable, ya que posee varios puntos de in
 La clave para este diseño es el desplazamiento del contenido, en lugar de su reprocesamiento y colocación debajo de otras columnas. Debido a las diferencias significativas entre cada punto de interrupción principal, es más complejo de mantener, y es posible que se deban realizar cambios dentro de los elementos, no solo en el diseño de contenido general.
 
 ## Tiny tweaks:
+
 El patrón Tiny tweaks permite realizar pequeños cambios en el diseño, como ajustar el tamaño de la fuente, cambiar el tamaño de las imágenes o desplazar el contenido de maneras muy poco significativas.
 Funciona correctamente en diseños con una sola columna, como los sitios web lineales de una sola página y los artículos con mucho texto.
 
 ## Off canvas:
+
 En lugar de apilar contenido verticalmente, el patrón Off canvas coloca contenido menos usado (tal vez menús de navegación o de apps) fuera de la pantalla y solo lo muestra cuando el tamaño de la pantalla es suficientemente grande. En las pantallas más pequeñas, el acceso al contenido es posible con solo a un clic.
+
+# Media queries
+
+Para que logres los resultados que deseas en tus proyectos, es necesario cambiar ciertas propiedades para modificar el tamaño de los textos, contenidos y hojas de estilo; la manera de hacer esto es el media queries.
+
+El media queries es un módulo de css que hace posible al responsive design, éste existe desde el 2010 y se encarga de adaptar la representación del contenido a características del dispositivo.
+
+En esta clase conocerás cómo funciona su estructura, cómo se construye y adquirirás los conocimientos necesarios para trabajar con él, desde tu editor de código.
+
+**@media media type and (condición) {} // @media screen and (max-width:800px) and (min-width:400px) {}**
+
+## Movile First: 
+
+@media screen and (min-width:320px) {}
+@media screen and (min-width:480px) {}
+@media screen and (min-width:768px) {}
+@media screen and (min-width:1024px) {}
+
+## Desktop First:
+
+@media screen and (max-width:1024px) {}
+@media screen and (min-width:768px) {}
+@media screen and (min-width:480px) {}
+@media screen and (min-width:320px) {}
+
+Link en HTML:
+
+    <link rel="stylesheet" href="./css/media.css" media="screen and (max-width:786px)"/>
