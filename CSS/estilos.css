@@ -354,8 +354,9 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
 }
 
 .cert-image {
-    width: 90vh;
-    object-fit: contain;
+    width: 48%;
+    object-fit: cover;
+    margin: 0 10px;
 }
 
 .cert-contact {
@@ -366,6 +367,7 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     align-items: center;
     justify-content: space-between;
 }
+
 
 @media screen and (max-width: 1024px) {
 
@@ -420,7 +422,7 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
         margin: 10px auto;
     }
     .form-email {
-        width: 50%;
+        width: 49%;
     }
     .form-email h3 {
         text-align: center;
@@ -432,4 +434,112 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
         display: block;
         margin: 0 auto;
     }
+    .social {
+        width: 49%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .cert-header {
+        height: 180px;
+    }
+
+    .cert-container {
+        display: block;
+        padding: 0;
+    }
+    .cert-image{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    h1 {
+        text-align: center;
+        background-image: url(../images/computer.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .cert-header {
+        height: 180px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+    }
+    .hero-image {
+        display: none;
+    }
+    .project {
+        display: block;
+    }
+    .project-details,
+    .project-imageContainer {
+        width: 100%;
+    }
+    .project-image {
+        width: 90%;
+    }
+    .event {        
+        width: 96%;
+    }
+
+    .event-image.css {
+        width: 100%;
+    }
+    .contact {
+        display: block;
+        height: 200px;
+    }
+    .form-email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .social {
+        width: 100%;
+        margin: 10px 10%;
+    }
+    .footer {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header {
+        display: block;
+        height: 100px;
+    }
+    .cert-header {
+        display: flex;
+        height: 180px;
+    }
+    .header-imgLogo {
+        margin: 0 auto;
+    }
+    .menu {
+        margin: 0 5%;
+    }
+
+    .cert-contact {
+        display: block;
+    }
+    .social {
+        margin: 5px 5%;
+    }
+    .social.cert-social{
+        display: inline;
+        width: 30px;
+        height: 30px;
+        background-size: 30px auto;
+    }
+    .social-link {
+        width: 35px;
+        height: 35px;
+        background-size: 35px auto;
+    }
+    .footer {
+        font-size: 10px;
+    }
+    
 }
