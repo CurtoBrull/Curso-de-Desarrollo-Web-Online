@@ -499,7 +499,6 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     }
     .social {
         width: 100%;
-        margin: 10px 10%;
     }
     .footer {
         font-size: 15px;
@@ -524,13 +523,11 @@ article.project:nth-child(2) > figure:nth-child(2) > img:nth-child(1) {
     .cert-contact {
         display: block;
     }
-    .social {
-        margin: 5px 5%;
-    }
+    
     .social.cert-social{
         display: inline;
-        width: 30px;
-        height: 30px;
+        /* width: 30px;
+        height: 30px; */
         background-size: 30px auto;
     }
     .social-link {
