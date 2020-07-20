@@ -1,5 +1,7 @@
 `2020-07-12 14:17:33 Sunday`
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 # Curso de Desarrollo Web Online
 
 Curso Básico de 6 horas de contenido.
@@ -181,3 +183,14 @@ En esta clase conocerás cómo funciona su estructura, cómo se construye y adqu
 Link en HTML:
 
     <link rel="stylesheet" href="./css/media.css" media="screen and (max-width:786px)"/>
+    
+# CSS Positions
+
+**static**: es la propiedad por defecto.
+
+Con las otras opciones, se activan las propiedades de top, bottom, left, right y z-index.
+
+**relative**: El objeto se mueve en base al lugar donde se encuentra originalmente.
+**absolute**: El objeto se ubica de manera absoluta con el elemento más cercano que tenga posición relativa o con el body.
+**fixed**: El elemento se muestra de manera fija en el viewport.
+**sticky**: El elemento se queda de manera fija una vez que aparece en pantalla.
