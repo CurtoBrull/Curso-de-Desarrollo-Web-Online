@@ -44,7 +44,7 @@ h1 {
     margin: 0;
 }
 
-strong {
+h1 strong {
     color: var(--dorado);
 }
 
