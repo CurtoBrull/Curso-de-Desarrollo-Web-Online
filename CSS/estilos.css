@@ -40,7 +40,7 @@ h1 {
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
-    color: white;
+    color: #FFF;
     margin: 0;
 }
 
@@ -59,7 +59,7 @@ h2 {
 
 .header {
     background-color: var(--bcg-gris);
-    color: white;
+    color: #FFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +80,7 @@ h2 {
 }
 
 .header a {
-    color: white;
+    color: #FFF;
     text-decoration: none;
     height: inherit;
     display: flex;
@@ -121,7 +121,7 @@ h2 {
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
-    background-color: white;
+    background-color: #FFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -217,7 +217,7 @@ h2 {
     margin: 20px 40px;
     margin-top: -40px;
     padding: 20px;
-    background-color: white;
+    background-color: #FFF;
     position: relative;
     text-align: center;
     border-radius: 5px;
@@ -238,7 +238,7 @@ h2 {
 
 .footer {
     background-color: var(--bcg-gris);
-    color: white;
+    color: #FFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -246,7 +246,7 @@ h2 {
 }
 
 .footer a {
-    color: white;
+    color: #FFF;
 }
 
 .footer-imgPlatzi {
